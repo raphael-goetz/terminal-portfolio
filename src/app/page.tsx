@@ -1,9 +1,9 @@
+import Terminal from "@/components/terminal/Terminal";
+
 export default function Home() {
   return (
     <main>
-      <div>
-        <h1>Hello There!</h1>
-      </div>
+        <Terminal />
     </main>
   )
 }
