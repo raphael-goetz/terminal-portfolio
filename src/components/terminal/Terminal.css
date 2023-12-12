@@ -1,0 +1,51 @@
+.terminal .box {
+  margin-top: 6.5rem;
+  height: 45rem;
+  width: 75rem;
+  background-color: #1f1f1f;
+  border-radius: 3.5rem;
+  outline: gray solid 1px;
+  box-shadow: 0 10px 10px black;
+}
+.terminal .button {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 1.4rem 0.5rem;
+  transition: 500ms;
+  border-radius: 100%;
+}
+.terminal .button:hover {
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px whitesmoke;
+  transition: 500ms;
+}
+.terminal .buttons {
+  margin-left: 2rem;
+  display: flex;
+}
+.terminal .red {
+  background-color: indianred;
+}
+.terminal .yellow {
+  background-color: gold;
+}
+.terminal .green {
+  background-color: lightgreen;
+}
+.terminal .text {
+  color: white;
+  margin: 1rem 5rem;
+}
+.terminal .header {
+  overflow: hidden;
+  border-top-left-radius: 3.5rem;
+  border-top-right-radius: 3.5rem;
+  z-index: 2;
+  height: 4rem;
+  width: 75rem;
+  background: rgb(24, 24, 24);
+  background: linear-gradient(16deg, rgb(9, 9, 9) 0%, rgb(13, 13, 13) 35%, rgb(24, 24, 24) 100%);
+  display: flex;
+}
+
+/*# sourceMappingURL=Terminal.css.map */
