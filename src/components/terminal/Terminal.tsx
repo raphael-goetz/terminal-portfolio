@@ -1,5 +1,7 @@
 import React from "react";
+import terminal from "../assets/terminal.svg"
 import './Terminal.scss'
+import Image from "next/image";
 
 const Terminal: React.FC = () => {
     return (
@@ -12,7 +14,8 @@ const Terminal: React.FC = () => {
                        <p className={"terminal button yellow"}></p>
                        <p className={"terminal button green"}></p>
                    </div>
-                   <h1 className={"terminal text"}>-terminal</h1>
+                   <Image src={terminal} alt={"terminal"} className={"svg"}/>
+                   <h1 className={"terminal text"}> terminal</h1>
                </div>
            </div>
        </div>
