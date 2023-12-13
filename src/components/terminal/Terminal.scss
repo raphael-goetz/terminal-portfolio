@@ -1,5 +1,10 @@
 .terminal {
 
+  animation-name: fade-in;
+  animation-duration: 1s;
+  font-family: Ubuntu, sans-serif;
+  position: relative;
+
   .box {
     margin-top: 6.5rem;
     height: 45rem;
@@ -68,5 +73,17 @@
     background: linear-gradient(16deg, rgb(9,9,9) 0%, rgb(13,13,13) 35%, rgb(24,24,24) 100%);
     display: flex;
     justify-content: center;
+  }
+}
+@keyframes fade-in {
+
+  0% {
+    opacity: 1%;
+    top: 1rem;
+  }
+
+  100% {
+    opacity: 100%;
+    top: 0;
   }
 }

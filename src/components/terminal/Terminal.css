@@ -1,3 +1,9 @@
+.terminal {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  font-family: Ubuntu, sans-serif;
+  position: relative;
+}
 .terminal .box {
   margin-top: 6.5rem;
   height: 45rem;
