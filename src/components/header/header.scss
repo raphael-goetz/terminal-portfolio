@@ -1,21 +1,12 @@
-.terminal {
+.header {
 
   animation-name: fade-in;
   animation-duration: 1s;
-  font-family: Ubuntu, sans-serif;
   position: relative;
+  display: flex;
+  color: white;
 
-  .box {
-    margin-top: 6.5rem;
-    height: 45rem;
-    width: 75rem;
-    background-color: #1f1f1f;
-    border-radius: 3.5rem;
-    outline: gray solid 1px;
-    box-shadow: 0 10px 10px black;
-  }
-
-  .svg {
+  &__svg {
     position: relative;
     right: 64px;
     width: 3.3rem;
@@ -23,7 +14,7 @@
     margin-top: 0.5rem;
   }
 
-  .button {
+  &__button {
     width: 1.4rem;
     height: 1.4rem;
     margin: 1.4rem 0.5rem;
@@ -31,38 +22,27 @@
     border-radius: 100%;
   }
 
-  .button:hover {
+  &__button:hover {
     background-color: whitesmoke;
     box-shadow: 0 0 5px whitesmoke;
     transition: 500ms;
   }
 
-  .buttons {
+  &__buttons {
     position: relative;
     right: 26rem;
     display: flex;
   }
 
-  .red {
-    background-color: indianred;
-  }
-
-  .yellow {
-    background-color: gold;
-  }
-
-  .green {
-    background-color: lightgreen;
-  }
-
-  .text {
+  &__text {
     position: relative;
     color: white;
+    font-family: Ubuntu, sans-serif;
     right: 4rem;
     margin: 1rem 1rem;
   }
 
-  .header {
+  &__box {
     overflow: hidden;
     border-top-left-radius: 3.5rem;
     border-top-right-radius: 3.5rem;
@@ -75,8 +55,20 @@
     justify-content: center;
   }
 }
-@keyframes fade-in {
 
+.red {
+  background-color: indianred;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+@keyframes fade-in {
   0% {
     opacity: 1%;
     top: 1rem;

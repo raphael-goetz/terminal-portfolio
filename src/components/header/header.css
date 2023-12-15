@@ -1,58 +1,42 @@
-.terminal {
+.header {
   animation-name: fade-in;
   animation-duration: 1s;
-  font-family: Ubuntu, sans-serif;
   position: relative;
+  display: flex;
+  color: white;
 }
-.terminal .box {
-  margin-top: 6.5rem;
-  height: 45rem;
-  width: 75rem;
-  background-color: #1f1f1f;
-  border-radius: 3.5rem;
-  outline: gray solid 1px;
-  box-shadow: 0 10px 10px black;
-}
-.terminal .svg {
+.header__svg {
   position: relative;
   right: 64px;
   width: 3.3rem;
   height: 3.3rem;
   margin-top: 0.5rem;
 }
-.terminal .button {
+.header__button {
   width: 1.4rem;
   height: 1.4rem;
   margin: 1.4rem 0.5rem;
   transition: 500ms;
   border-radius: 100%;
 }
-.terminal .button:hover {
+.header__button:hover {
   background-color: whitesmoke;
   box-shadow: 0 0 5px whitesmoke;
   transition: 500ms;
 }
-.terminal .buttons {
+.header__buttons {
   position: relative;
   right: 26rem;
   display: flex;
 }
-.terminal .red {
-  background-color: indianred;
-}
-.terminal .yellow {
-  background-color: gold;
-}
-.terminal .green {
-  background-color: lightgreen;
-}
-.terminal .text {
+.header__text {
   position: relative;
   color: white;
+  font-family: Ubuntu, sans-serif;
   right: 4rem;
   margin: 1rem 1rem;
 }
-.terminal .header {
+.header__box {
   overflow: hidden;
   border-top-left-radius: 3.5rem;
   border-top-right-radius: 3.5rem;
@@ -63,6 +47,18 @@
   background: linear-gradient(16deg, rgb(9, 9, 9) 0%, rgb(13, 13, 13) 35%, rgb(24, 24, 24) 100%);
   display: flex;
   justify-content: center;
+}
+
+.red {
+  background-color: indianred;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.green {
+  background-color: lightgreen;
 }
 
 @keyframes fade-in {
@@ -76,4 +72,4 @@
   }
 }
 
-/*# sourceMappingURL=Terminal.css.map */
+/*# sourceMappingURL=header.css.map */
